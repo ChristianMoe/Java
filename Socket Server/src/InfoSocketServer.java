@@ -14,6 +14,7 @@ public class InfoSocketServer {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		//Versuchen das Socekt zu erzeugen
 		try {
 			// Erzeugen eines ServerSocket auf Port 80
 			ServerSocket meinserversocket = new ServerSocket(80);
